@@ -1,5 +1,9 @@
+import Medium.Search2DMatrixII;
+
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello World");
+        int[][] test = {{1,   4,  7, 11, 15}, {2,   5,  8, 12, 19}, {3,   6,  9, 16, 22}, {10, 13, 14, 17, 24}, {18, 21, 23, 26, 30}};
+        Search2DMatrixII search2DMatrixII = new Search2DMatrixII();
+        System.out.println(search2DMatrixII.searchMatrix(test, 5));
     }
 }
