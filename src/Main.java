@@ -1,3 +1,4 @@
+import Easy.ValidPerfectSquare;
 import Helpers.TreeNode;
 import Medium.CousinsInBinaryTree;
 import Medium.Search2DMatrixII;
@@ -10,8 +11,10 @@ public class Main {
 //        test.right = new TreeNode(3);
 //        test.left.left = new TreeNode(4);
 //        CousinsInBinaryTree CIBT = new CousinsInBinaryTree();
+//        ValidPerfectSquare VPS = new ValidPerfectSquare();
 //        System.out.println(CIBT.isCousins(test, 4, 3));
 //        Search2DMatrixII search2DMatrixII = new Search2DMatrixII();
 //        System.out.println(search2DMatrixII.searchMatrix(test, 5));
+//        System.out.println(VPS.isPerfectSquare(15));
     }
 }
